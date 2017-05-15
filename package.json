@@ -1,0 +1,31 @@
+{
+  "name": "contactmanagementapi",
+  "version": "1.0.0",
+  "description": "RESTful contact management api service",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kuldeepy/node_contact_management_api.git"
+  },
+  "keywords": [
+    "RESTful"
+  ],
+  "author": "Kuldeep Yadav",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kuldeepy/node_contact_management_api/issues"
+  },
+  "homepage": "https://github.com/kuldeepy/node_contact_management_api#readme",
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  },
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "express": "^4.15.2",
+    "mongoose": "^4.9.9"
+  }
+}
